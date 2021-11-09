@@ -4,6 +4,8 @@ from scipy import io
 
 def load_data(Fs, fname='data/test2_25p0.mat'):
     """
+    reads file and makes all the corrections from hw2
+
     :param Fs: sampling frequency
     :param fname: file name to load data from
     :return: x - system input sequence, y - system output sequence (with all the corrections)
